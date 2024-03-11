@@ -1,0 +1,150 @@
+/* Style for the profile table */
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile-table th, .profile-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.profile-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+
+.profile-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.profile-table tr:hover {
+    background-color: #f2f2f2;
+}
+
+.profile-table a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.profile-table a:hover {
+    text-decoration: underline;
+}
+
+.profile-lists-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #dcdcdc;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.profile-lists-dropdowns,
+.profile-lists-filters {
+    flex: 1 1 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.profile-lists-search {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+select {
+    width: 200px;
+    height: 25px;
+}
+
+.ageslider {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.short:after {
+    display: block;
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 7.5px 15px 7.5px;
+    border-color: transparent transparent #676767 transparent;
+    transform: rotate(180deg);
+
+}
+
+.short {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.theplus-pagination {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+#title {
+    width: 90%;
+    height: 25px;
+    border-radius: 3px;
+    border: 2px solid #949494;
+}
+
+.profile-lists-dropdowns {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    font-size: 16px;
+    align-items: center;
+}
+
+.profile-lists-filters {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+#experience, #jobs-completed-select {
+    width: 55px;
+}
+
+.filter-btn {
+    display: flex;
+    justify-content: center;
+}
+
+#filter-button {
+    width: 100px;
+}
+
+.chosen-choices {
+    border-radius: 3px;
+    border: 2px solid #949494 !important;
+}
+
+.profile-lists-filters input {
+    height: 20px;
+    border-radius: 3px;
+    border: 2px solid #999;
+}
+
+.ajax-paginate.active {
+    border-bottom: 1px solid #000;
+}
+
+.ajax-paginate {
+    text-decoration: none !important;
+}
