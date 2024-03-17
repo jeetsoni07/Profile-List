@@ -42,14 +42,14 @@
     border-radius: 3px;
 }
 
-.profile-lists-dropdowns,
-.profile-lists-filters {
+.profile-lists-container .profile-lists-dropdowns,
+.profile-lists-container .profile-lists-filters {
     flex: 1 1 50%;
     padding: 10px;
     box-sizing: border-box;
 }
 
-.profile-lists-search {
+.profile-lists-container .profile-lists-search {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -58,18 +58,18 @@
     padding: 10px;
 }
 
-select {
+.profile-lists-container select {
     width: 200px;
     height: 25px;
 }
 
-.ageslider {
+.profile-lists-container.ageslider {
     display: flex;
     align-items: center;
     gap: 70px;
 }
 
-.short:after {
+.profile-lists-container .short:after {
     display: block;
     content: '';
     width: 0px;
@@ -81,7 +81,7 @@ select {
 
 }
 
-.short {
+.profile-lists-container .short {
     display: flex;
     height: 50px;
     align-items: center;
@@ -93,14 +93,14 @@ select {
     justify-content: flex-end;
 }
 
-#title {
+.profile-lists-container #title {
     width: 90%;
     height: 25px;
     border-radius: 3px;
     border: 2px solid #949494;
 }
 
-.profile-lists-dropdowns {
+.profile-lists-container .profile-lists-dropdowns {
     display: flex;
     gap: 20px;
     justify-content: space-between;
@@ -108,7 +108,7 @@ select {
     align-items: center;
 }
 
-.profile-lists-filters {
+.profile-lists-container .profile-lists-filters {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -117,25 +117,25 @@ select {
     justify-content: space-between;
 }
 
-#experience, #jobs-completed-select {
+.profile-lists-container #experience, .profile-lists-container #jobs-completed-select {
     width: 55px;
 }
 
-.filter-btn {
+.profile-lists-container .filter-btn {
     display: flex;
     justify-content: center;
 }
 
-#filter-button {
+.profile-lists-container #filter-button {
     width: 100px;
 }
 
-.chosen-choices {
+.profile-lists-container.chosen-choices {
     border-radius: 3px;
     border: 2px solid #949494 !important;
 }
 
-.profile-lists-filters input {
+.profile-lists-container .profile-lists-filters input {
     height: 20px;
     border-radius: 3px;
     border: 2px solid #999;

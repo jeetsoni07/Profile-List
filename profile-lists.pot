@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-17 20:44+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/class-meta-boxes.php:65
+msgid "Profile Metadata"
+msgstr ""
+
+#: includes/class-meta-boxes.php:89
+msgid "Date of Birth:"
+msgstr ""
+
+#: includes/class-meta-boxes.php:93
+msgid "Hobbies:"
+msgstr ""
+
+#: includes/class-meta-boxes.php:97
+msgid "Interests:"
+msgstr ""
+
+#: includes/class-meta-boxes.php:101
+msgid "Years of Experience:"
+msgstr ""
+
+#: includes/class-meta-boxes.php:105
+msgid "Ratings:"
+msgstr ""
+
+#: includes/class-meta-boxes.php:109
+msgid "No. of Jobs Completed:"
+msgstr ""
+
+#: includes/class-meta-boxes.php:157
+msgid "Date of Birth"
+msgstr ""
+
+#: includes/class-meta-boxes.php:158
+msgid "Hobbies"
+msgstr ""
+
+#: includes/class-meta-boxes.php:159
+msgid "Interests"
+msgstr ""
+
+#: includes/class-meta-boxes.php:160
+msgid "Years of Experience"
+msgstr ""
+
+#: includes/class-meta-boxes.php:161
+msgid "Ratings"
+msgstr ""
+
+#: includes/class-meta-boxes.php:162
+msgid "Jobs Completed"
+msgstr ""
+
+#: includes/post-types/class-register-post-types.php:63
+msgid "Profiles"
+msgstr ""
+
+#: includes/post-types/class-register-post-types.php:64
+msgid "Profile"
+msgstr ""
+
+#: includes/taxonomies/class-register-taxonomies.php:65
+msgid "Skills"
+msgstr ""
+
+#: includes/taxonomies/class-register-taxonomies.php:66
+msgid "Skill"
+msgstr ""
+
+#: includes/taxonomies/class-register-taxonomies.php:80
+#: includes/taxonomies/class-register-taxonomies.php:81
+msgid "Education"
+msgstr ""
