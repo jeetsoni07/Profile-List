@@ -86,27 +86,27 @@ class Meta_Boxes {
 
 		?>
 		<p>
-			<label for="profile_dob"><?php esc_html_e( 'Date of Birth:' ); ?></label>
+			<label for="profile_dob"><?php esc_html_e( 'Date of Birth:','profile-lists' ); ?></label>
 			<input type="date" id="profile_dob" name="profile_dob" value="<?php echo esc_attr( $dob ); ?>" />
 		</p>
 		<p>
-			<label for="profile_hobbies"><?php esc_html_e( 'Hobbies:' ); ?></label>
+			<label for="profile_hobbies"><?php esc_html_e( 'Hobbies:','profile-lists' ); ?></label>
 			<input type="text" id="profile_hobbies" name="profile_hobbies" value="<?php echo esc_attr( $hobbies ); ?>" />
 		</p>
 		<p>
-			<label for="profile_interests"><?php esc_html_e( 'Interests:' ); ?></label>
+			<label for="profile_interests"><?php esc_html_e( 'Interests:','profile-lists' ); ?></label>
 			<input type="text" id="profile_interests" name="profile_interests" value="<?php echo esc_attr( $interests ); ?>" />
 		</p>
 		<p>
-			<label for="profile_years_of_experience"><?php esc_html_e( 'Years of Experience:' ); ?></label>
+			<label for="profile_years_of_experience"><?php esc_html_e( 'Years of Experience:','profile-lists' ); ?></label>
 			<input type="number" id="profile_years_of_experience" name="profile_years_of_experience" value="<?php echo esc_attr( $years_of_experience ); ?>" />
 		</p>
 		<p>
-			<label for="profile_ratings"><?php esc_html_e( 'Ratings:' ); ?></label>
+			<label for="profile_ratings"><?php esc_html_e( 'Ratings:','profile-lists' ); ?></label>
 			<input type="number" id="profile_ratings" name="profile_ratings" value="<?php echo esc_attr( $ratings ); ?>" />
 		</p>
 		<p>
-			<label for="profile_jobs_completed"><?php esc_html_e( 'No. of Jobs Completed:' ); ?></label>
+			<label for="profile_jobs_completed"><?php esc_html_e( 'No. of Jobs Completed:','profile-lists' ); ?></label>
 			<input type="number" id="profile_jobs_completed" name="profile_jobs_completed" value="<?php echo esc_attr( $jobs_completed ); ?>" />
 		</p>
 

@@ -9,7 +9,7 @@
  * Plugin Name:       Profile Lists
  * Plugin URI:
  * Description:       This will adds a list of profiles.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Profile Lists INC
  * Author URI:        https://profile-lists.com
  * Text Domain:       profile-lists
@@ -36,3 +36,8 @@ use ProfileLists\Includes\Profile_Lists;
 if ( class_exists( 'ProfileLists\Includes\Profile_Lists' ) ) {
 	$profile_lists = new Profile_Lists();
 }
+
+function load_profile_lists_textdomain() {
+    load_plugin_textdomain( 'profile-lists', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+}
+add_action( 'plugins_loaded', 'load_profile_lists_textdomain' );
